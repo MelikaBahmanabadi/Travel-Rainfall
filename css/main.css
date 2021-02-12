@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box
+}
+@font-face {
+  font-family: "B Yekan";
+  src: url("../fonts/Yekan.ttf") format("ttf");
+}
+.yek{
+    font-family: "B Yekan" !important;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "B Yekan";
+}
+
+.tablink {
+    background-color: #f3f3f3;
+    color: #867f7f;
+    float: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.tablink:hover {
+    background-color: #d4d1d1;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#travel {
+    background-color: white;
+}
+
+#rainfall {
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta charset="UTF-8">
+    <link href="./css/main.css" rel="stylesheet">
+    <title>Race Chart</title>
+</head>
+<body>
+
+<button class="tablink yek" id="defaultOpen" onclick="openPage('travel', this, '#e5f9ff')">گردشگری</button>
+<button class="tablink yek" onclick="openPage('rainfall', this, '#FFF2EB')">بارش سالانه</button>
+
+<div class="tabcontent yek" id="travel">
+    <div aria-label="" class="flourish-embed flourish-bar-chart-race yek"
+         data-src="visualisation/3669619" data-url="https://flo.uri.sh/visualisation/3669619/embed">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </div>
+</div>
+<div class="tabcontent yek" id="rainfall">
+    <div aria-label="" class="flourish-embed flourish-bar-chart-race yek"
+         data-src="visualisation/3687960" data-url="https://flo.uri.sh/visualisation/3687960/embed">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </div>
+</div>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
